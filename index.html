@@ -24,7 +24,7 @@
     position: absolute;
     width: 300px;
     height: 160px;
-    top: calc(50% - 62px);
+    top: calc(50% - 66px);
     left: calc(50% - 150px);
     cursor: pointer;
     z-index: 2;
@@ -139,12 +139,12 @@
     if (percentCleared >= 80) {
       hasConfettiLaunched = true;
 
-      // 🎉 Confettis rose pâle
+      // 🎉 Confettis BLEU pâle
       confetti({
         particleCount: 120,
         spread: 80,
         origin: { y: 0.6 },
-        colors: ['#fcd6e6', '#fce4ec', '#f8bbd0']
+        colors: ['#b3d9ff', '#a3cfff', '#cce6ff'] // différentes nuances de bleu pâle
       });
     }
   }
